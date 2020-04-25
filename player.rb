@@ -9,4 +9,8 @@ class Player
     @bank = 100
   end
 
+  def new_hand
+    @hand = Hand.new
+  end
+
 end

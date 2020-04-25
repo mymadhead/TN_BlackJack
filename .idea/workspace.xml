@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21983f66-ebca-46ab-8919-7548ab01d8a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/menu.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hand.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface.rb" beforeDir="false" afterPath="$PROJECT_DIR$/interface.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.rb" beforeDir="false" afterPath="$PROJECT_DIR$/menu.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.rb" beforeDir="false" afterPath="$PROJECT_DIR$/player.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,7 @@
       <updated>1587738449884</updated>
       <workItem from="1587738450995" duration="129000" />
       <workItem from="1587739857186" duration="897000" />
-      <workItem from="1587816140037" duration="3286000" />
+      <workItem from="1587816140037" duration="4538000" />
     </task>
     <task id="LOCAL-00001" summary="Add README.md to repo">
       <created>1587817329074</created>

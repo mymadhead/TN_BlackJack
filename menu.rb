@@ -9,6 +9,7 @@ module Menu
 
   def shuffling
     puts 'Cards are shuffling, please wait!'
+    sleep 1
   end
 
 end
