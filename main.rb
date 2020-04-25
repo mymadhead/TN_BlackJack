@@ -6,5 +6,6 @@ require_relative 'game'
 require_relative 'menu'
 require_relative 'hand'
 require_relative 'card'
+require_relative 'deck'
 
 Game.new

@@ -10,4 +10,8 @@ class Card
     @kit = kit
     @rank = rank
   end
+
+  def ace?
+    rank == 'Ace'
+  end
 end
