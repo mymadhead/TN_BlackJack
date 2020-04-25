@@ -13,4 +13,23 @@ class Player
     @hand = Hand.new
   end
 
+  def add_card
+    hand.cards << card
+  end
+
+  def bankrupt?
+    @bank <= 0
+  end
+
+  def bet
+    self.bank -= 10
+  end
+
+  def back_money
+    self.bank += 10
+  end
+
+  def prize
+    self.bank += 20
+  end
 end
