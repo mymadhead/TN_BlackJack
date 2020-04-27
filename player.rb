@@ -13,7 +13,7 @@ class Player
     @hand = Hand.new
   end
 
-  def add_card
+  def add_card(card)
     hand.cards << card
   end
 
