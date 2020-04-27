@@ -5,7 +5,7 @@ class Hand
 
   POINTS = {
     '2' => 2, '3' => 3, '4' => 4, '5' => 5, '6' => 6, '7' => 7, '8' => 8,
-    '9' => 9, '10' => 10, 'Jack' => 10, 'Queen' => 10, 'King' => 10, 'Ace' => 11  # Надо ли перевести строковые значения в символьные?
+    '9' => 9, '10' => 10, 'Jack' => 10, 'Queen' => 10, 'King' => 10, 'Ace' => 11
   }.freeze
 
   def initialize
@@ -17,7 +17,7 @@ class Hand
     cards.size == 3
   end
 
-  def max_points
+  def max_points?
     points == 21
   end
 
@@ -30,5 +30,4 @@ class Hand
       @points
     end
   end
-
 end
