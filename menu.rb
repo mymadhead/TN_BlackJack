@@ -12,12 +12,12 @@ module Menu
     sleep 1
   end
 
-  def betting
-
+  def betting(player)
+    puts "#{player.name}, you have #{player.bank}$ left in your pocket!"
   end
 
-  def hand_status
-
+  def hand_status(player)
+    puts "Cards in #{player.name} hand:"
   end
 
   def more_game
@@ -60,8 +60,8 @@ module Menu
 
   end
 
-  def hand_points
-
+  def hand_points(player)
+    puts "Total points: #{player.hand.count_points}"
   end
 
   def end_game
